@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Data Binding Vue</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+<body>
+
+  <h2 class="center">Data Binding Vue</h2>
+
+  <div id="app" class="card">
+    <div class="field">
+      <label>First name :</label><br>
+      <input type="text" v-model="firstName">
+    </div>
+    <div class="field">
+      <label>Middle name :</label><br>
+      <input type="text" v-model="middleName">
+    </div>
+    <div class="field">
+      <label>Last name :</label><br>
+      <input type="text" v-model="lastName">
+    </div>
+    <hr>
+    <div class="field">
+      <label>Full name :</label><br>
+      <input type="text" v-model="fullName">
+    </div>
+  </div>
+
+  <div class="center">
+    <a href="binding-jq.html">jQuery verison</a>
+  </div>
+
+  <script src="js/binding-vue.js"></script>
+</body>
+</html>
